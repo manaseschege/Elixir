@@ -1,18 +1,6 @@
+
+# Structs
 defmodule Project1 do
-  @moduledoc """
-  Documentation for `Project1`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Project1.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  defstruct name: "chei", age: 20
 end
+# %Project1{id:2,title:"manasses",description:"awesome"}
